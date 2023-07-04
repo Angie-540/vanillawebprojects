@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+    background-color: lightpink;
+}
+overall {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

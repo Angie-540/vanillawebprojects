@@ -5,24 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3da1a747b2.js"
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <h1>Password Generator</h1>
         <div class="result-container">
             <span id="result"></span>
+            <button class="btn" id="clipboard"> 
+                <i class="far fa-clipboard"></i>      
+            </button>
         </div>
-            <ul class="requirements">
-                <p>Password Length</p>
-                <p>Include uppercase letters</p>
-                <p>Include lowercase letters</p>
-                <p>Include numbers</p>
-                <p>Include symbols</p>
-            </ul>
-            <h3>Generate Password</h3>
+
+        <div class="settings">
+            <div class="setting">
+                <label for="length"> Password Length</label>
+                <input type="number" id="length" min="4" max="20" value="20">
+            </div>
+            <div class="setting">
+                <label for="length">Include Uppercase Letters</label>
+                <input type="checkbox" id="uppercase" checked>
+            </div>
+            <div class="setting">
+                <label for="length">Include Uppercase Letters </label>
+                <input type="checkbox" id="lowercase" checked>
+            </div>
+            <div class="setting">
+                <label for="length"> Include Numbers </label>
+                <input type="checkbox" id="numbers" checked>
+            </div>
+            <div class="setting">
+                <label for="length"> Include Symbols </label>
+                <input type="checkbox" id="symbols" checked>
+            </div>
+        </div>
+        <button class="btn btn-large" id="generate">Generate Password</button>
+            
     </div>
 
-    </div>
 
 
     <script src="script.js"></script>

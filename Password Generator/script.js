@@ -1,1 +1,5 @@
- 
+ //Generate functions
+
+ function getRandomLower() {
+    
+ }

@@ -45,42 +45,54 @@ body {
     /* margin: 10px 0; */
 }
 
-.intro i {
-    font-size: 40px;
+ i {
+    font-size: 50px;
 }
 
-.search {
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    max-width: ;
+.search-container {
+    display: flex;
+    /* max-width:200px; */
+    /* margin-top: 0 auto; */
+    /* border: 1px solid; */
 }
 
-#searchquery {
+/* #searchquery {
     border-radius: 5%;
     width: 100%;
+} */
+
+.icons {
+    display: flex;
+}
+
+.heart {
+    color: red;
+}
+
+.shopping-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .shopping {
-
+    max-width: 800px;  
+    color: yellow;  
 }
 
 .card {
-    width: 800px;
-    height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 10px;
 
+    margin: 10px;
 }
 
 .card img {
-    display: flex;
-    justify-content: space-between
-    width: ;
-    max-height: 280px;
-    margin: 0 10px;
+    max-width:600px;
+    max-height: 350px;
+    height: auto;
+    width: auto;
+    margin: 0 20px;
     border-radius: 10%;
 }
 
@@ -98,6 +110,7 @@ body {
 
 .viewed img {
     width: 100%;
+    max-height: 280px;
     margin: 10px;
     border-radius: 10%;
 }
@@ -115,4 +128,10 @@ body {
 .contact-section {
     width: 50%;
     margin-left: 10px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
